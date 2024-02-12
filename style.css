@@ -1,0 +1,106 @@
+.MOther {
+  padding: 25px 28px;
+  background: #e0a2a2;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 10s ease-in-out;
+  overflow: scroll;
+}
+.greeting {
+  width: 100%;
+  font-family: "Bravo", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #e07373;
+  margin-top: 100px;
+  text-shadow: 3px 2px 2px rgba(216, 219, 245, 0.65);
+}
+
+.button {
+  text-decoration: none;
+  border: 3px solid #b17171;
+  border-radius: 10px;
+  padding: 18px 25px;
+  color: #ad6d6d;
+  font-family: "Bravo", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.button:hover {
+  background-color: #f39898;
+  color: #fff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(145, 73, 73, 0.7);
+  transition: opacity 700ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+/*overlay:after {
+  animation: explode 4s infinite;
+}*/
+
+.love {
+  padding: 25px 28px;
+  background: #e0a2a2;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 10s ease-in-out;
+  overflow: scroll;
+}
+.love .close {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  transition: all 200ms;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 3px 2px 2px #e07373;
+}
+.love h2 {
+  font-family: "Bravo", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+}
+
+.message h2,
+.message p,
+.message h3 {
+  padding: 0 140px;
+  font-family: "Bravo", sans-serif;
+  pointer: cursor;
+}
+.message h2 {
+  text-align: left;
+  color: #fffdfd;
+  font-size: 25px;
+}
+.message p {
+  text-align: justify;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 0 165px;
+}
+.message h3 {
+  text-align: right;
+  color: #fff;
+  font-size: 25px;
+}
